@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="359dp"
+    android:layout_height="446dp"
+    android:padding="5dp"
+    android:layout_gravity="center">
+    <TextView
+        android:id="@+id/tv_close"
+        android:layout_width="42dp"
+        android:layout_height="41dp"
+        android:layout_gravity="end"
+        android:background="#830303"
+        android:gravity="center"
+        android:text="@string/figure_x"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="329dp"
+        android:layout_height="268dp"
+        android:layout_gravity="center"
+        android:background="@color/transparente2">
+
+        <ImageView
+            android:layout_width="294dp"
+            android:layout_height="375dp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:src="@drawable/niveles" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:text="@string/indication_levels"
+            android:textColor="#0091a1"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

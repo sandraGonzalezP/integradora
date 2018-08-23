@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e0ffca"
+    tools:context="com.learndaw.first.integrationdaw.fragment.FragUnitOne">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_unit_one"
+            android:layout_width="192dp"
+            android:layout_height="161dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/patrones" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/skranji"
+            android:text="@string/design_patterns"
+            android:textColor="#0fc40b"
+            android:textSize="12pt" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/chewy"
+            android:text="@string/objetive"
+            android:textColor="#d7c41f"
+            android:textSize="11pt" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/loved_by_the_king"
+            android:text="@string/description_unit1"
+            android:textColor="#043c83"
+            android:textSize="10pt" />
+
+
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <VideoView
+                android:id="@+id/v_video"
+                android:layout_width="325dp"
+                android:layout_height="209dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
+
+            <ProgressBar
+                android:id="@+id/pb_Load"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="86dp"
+                android:layout_height="44dp"
+                android:layout_centerInParent="true"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:id="@+id/bt_play"
+                android:layout_width="30dp"
+                android:layout_height="24dp"
+                android:layout_alignParentBottom="true"
+                android:layout_toStartOf="@+id/pb_Duration"
+                android:background="@drawable/ic_play_arrow_black_24dp" />
+
+            <ProgressBar
+                android:id="@+id/pb_Duration"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="288dp"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/v_video"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="-18dp"
+                android:layout_weight="1" />
+
+            <LinearLayout
+                android:layout_width="362dp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/bt_game"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:onClick="goGame"
+                android:text="Jugar" />
+
+            <Button
+                android:id="@+id/bt_quiz_I"
+                android:layout_width="85dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:onClick="evaluation"
+                android:text="Evaluar" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
+</ScrollView>

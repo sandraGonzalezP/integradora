@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/aguafina_script</item>
+        <item>@font/cabin_sketch</item>
+        <item>@font/calligraffitti</item>
+        <item>@font/carter_one</item>
+        <item>@font/chewy</item>
+        <item>@font/doppio_one</item>
+        <item>@font/faster_one</item>
+        <item>@font/give_you_glory</item>
+        <item>@font/henny_penny</item>
+        <item>@font/loved_by_the_king</item>
+        <item>@font/miltonian_tattoo</item>
+        <item>@font/monofett</item>
+        <item>@font/skranji</item>
+    </array>
+</resources>

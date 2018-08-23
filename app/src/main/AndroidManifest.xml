@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.learndaw.second.integrationdaw">
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="27" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:debuggable="false" >
+        <activity
+            android:name="com.learndaw.second.integrationdaw.activities.RegisterActivity"
+            android:exported="true"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.learndaw.second.integrationdaw.activities.IntroductionActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.learndaw.second.integrationdaw.activities.MenuActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.learndaw.second.integrationdaw.activities.VideosActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.learndaw.second.integrationdaw.activities.GifActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.learndaw.second.integrationdaw.activities.GraphActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.learndaw.second.integrationdaw.fragment.LevelsActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name="com.learndaw.second.integrationdaw.activities.SplashActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Facebook -->
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.learndaw.second.integrationdaw.guesstheword.GuessWordActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.learndaw.second.integrationdaw.com.learndaw.second.integrationdaw.guesstheword.PlayGuessActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.learndaw.second.integrationdaw.quiz.QuizOneActivity" />
+        <activity android:name="com.learndaw.second.integrationdaw.memory.MemoryActivity" />
+        <activity android:name="com.learndaw.second.integrationdaw.quiz.QuizTwoActivity" />
+        <activity android:name="com.learndaw.second.integrationdaw.quiz.QuizThreeActivity" />
+        <activity android:name="com.learndaw.second.integrationdaw.quiz.QuizFourActivity" />
+        <activity android:name="com.learndaw.second.integrationdaw.quiz.QuizFiveActivity" />
+        <activity android:name="com.learndaw.second.integrationdaw.glosary.GlosaryActivity"></activity>
+    </application>
+
+</manifest>

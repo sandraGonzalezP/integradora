@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7bc9d7d6"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.learndaw.second.integrationdaw.glosary.GlosaryActivity">
+
+    <TextView
+        android:id="@+id/tv_glosary"
+        android:layout_width="214dp"
+        android:layout_height="63dp"
+        android:fontFamily="@font/henny_penny"
+        android:gravity="center"
+        android:text="@string/glosary"
+        android:textColor="#ff0543"
+        android:textSize="30sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/bt_encapsulation"
+            android:layout_width="146dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="27dp"
+            android:background="#ffb302"
+            android:text="@string/encapsulation"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/bt_system"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="28dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="27dp"
+            android:background="#f50f54"
+            android:text="@string/system_in"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/bt_set_get"
+            android:layout_width="146dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="121dp"
+            android:layout_marginEnd="28dp"
+            android:background="#7f4bb3"
+            android:text="@string/get_y_set"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/bt_abstract_factory"
+            android:layout_width="146dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="121dp"
+            android:layout_marginStart="28dp"
+            android:background="#227e08"
+            android:text="@string/abstract_factory"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/bt_flush"
+            android:layout_width="146dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="155dp"
+            android:background="#b60a60"
+            android:text="@string/flush"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/bt_prototype"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="28dp"
+            android:layout_marginTop="155dp"
+            android:background="#05c2bf"
+            android:text="@string/prototype"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+</LinearLayout>

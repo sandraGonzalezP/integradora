@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "1094319816497",
+    "firebase_url": "https://integrationdaw.firebaseio.com",
+    "project_id": "integrationdaw",
+    "storage_bucket": "integrationdaw.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1094319816497:android:09c7b6886929d461",
+        "android_client_info": {
+          "package_name": "com.learndaw.second.integrationdaw"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1094319816497-hke37clh49amp6b6h314a60vae0msa2g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.learndaw.second.integrationdaw",
+            "certificate_hash": "77bf923f3d02a04d2aecb3b3778c1785dbcf4c42"
+          }
+        },
+        {
+          "client_id": "1094319816497-e9a2v9913lb7jukqo4nnvflfdmc8hpu7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.learndaw.second.integrationdaw",
+            "certificate_hash": "baa20e4208f7c3589be9cef8f85d0b8801ad80c3"
+          }
+        },
+        {
+          "client_id": "1094319816497-os3sak4etj4d70alnrcukeivle4ib2mk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA94RYgF9sDRbOPE2bj7P1eAbrAe2m0CpA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1094319816497-os3sak4etj4d70alnrcukeivle4ib2mk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

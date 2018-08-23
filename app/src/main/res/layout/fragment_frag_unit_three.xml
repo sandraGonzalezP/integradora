@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fad5e3"
+        tools:context=".FragUnitThree">
+        <!-- TODO: Update blank fragment layout -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_unit_three"
+                android:layout_width="183dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/unitthree" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/skranji"
+                android:text="@string/data_manipulation"
+                android:textColor="#c15406"
+                android:textSize="12pt" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/chewy"
+                android:text="@string/objetive"
+                android:textColor="#f46703"
+                android:textSize="11pt" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/loved_by_the_king"
+                android:text="@string/description_unit3"
+                android:textColor="#043c83"
+                android:textSize="10pt" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+                <VideoView
+                    android:id="@+id/v_video"
+                    android:layout_width="325dp"
+                    android:layout_height="209dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center_horizontal" />
+
+                <ProgressBar
+                    android:id="@+id/pb_Load"
+                    style="?android:attr/progressBarStyle"
+                    android:layout_width="86dp"
+                    android:layout_height="44dp"
+                    android:layout_centerInParent="true"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:id="@+id/bt_play"
+                    android:layout_width="30dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toStartOf="@+id/pb_Duration"
+                    android:background="@drawable/ic_play_arrow_black_24dp" />
+
+                <ProgressBar
+                    android:id="@+id/pb_Duration"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="288dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignEnd="@+id/v_video"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="-18dp"
+                    android:layout_weight="1" />
+
+                <LinearLayout
+                    android:layout_width="362dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                </LinearLayout>
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+
+                <Button
+                    android:id="@+id/bt_quiz_III"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:onClick="evaluationIII"
+                    android:text="Evaluar" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</ScrollView>
